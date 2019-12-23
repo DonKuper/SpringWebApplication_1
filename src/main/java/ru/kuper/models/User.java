@@ -65,9 +65,13 @@ public class User {
 
     @Override
     public String toString() {
-        return "models.user{" + "id=" + id + ", name='" + name + '\'' + ", age=" + age +'}';
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", autos=" + autos +
+                '}';
     }
-
 
     public String showInfo() {
         StringBuilder sb = new StringBuilder();

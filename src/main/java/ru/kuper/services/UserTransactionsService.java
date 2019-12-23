@@ -9,8 +9,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 
+
 @Component
-@ApplicationScoped
 @Transactional
 public class UserTransactionsService {
 

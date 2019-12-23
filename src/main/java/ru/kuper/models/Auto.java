@@ -55,9 +55,15 @@ public class Auto {
         this.user = user;
     }
 
+
     @Override
     public String toString() {
-        return color + " " + model;
+        return "Auto{" +
+                "id=" + id +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", user=" + user +
+                '}';
     }
 
 }
