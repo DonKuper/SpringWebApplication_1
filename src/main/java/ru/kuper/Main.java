@@ -1,4 +1,4 @@
-package ru.kuper.old;
+package ru.kuper;
 
 import ru.kuper.models.Auto;
 import ru.kuper.models.User;
